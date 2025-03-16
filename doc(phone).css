@@ -1,0 +1,49 @@
+body {
+    background: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+#top {
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 15vh;
+    transform: translate(30vw);
+
+    font-size: 7vw;
+}
+
+.top {
+    display: inline-block;
+    opacity: 0;
+}
+
+#top2 {
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 20vh;
+
+    font-size: 3.5vw;
+}
+
+.top2 {
+    display: inline-block;
+    opacity: 0;
+}
+
+.logo-path {
+    stroke: #69b1f5;
+    fill: transparent;
+}
+
+#svg {
+    position: relative;
+    top: 10vh;
+    scale: 0.5;
+}
+
+.svg2 {
+    stroke: #f56998;
+}

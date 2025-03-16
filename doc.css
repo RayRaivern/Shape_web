@@ -1,12 +1,6 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 body {
     background: black;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
 }
 
@@ -14,10 +8,10 @@ body {
     color: white;
     position: relative;
     text-align: center;
-    left: 29vw;
-    top: 30vh;
+    top: 15vh;
+    transform: translate(30vw);
 
-    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    font-size: 5vh;
 }
 
 .top {
@@ -28,10 +22,10 @@ body {
 #top2 {
     color: white;
     position: relative;
-    text-align:center;
-    top: 40vh;
+    text-align: center;
+    top: 16vh;
 
-    font-size: clamp(1rem, 2.5vw, 1.5rem); 
+    font-size: 2.5vh;
 }
 
 .top2 {
@@ -45,20 +39,14 @@ body {
 }
 
 #svg {
-    position: absolute;
-    top: 55vh;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    top: 20vh;
     display: flex;
-    gap: 6vw; /* Responsive gap between SVGs */
-}
-
-.svg1 {
-    scale: 1.1;
+    justify-content: center;
+    gap: 2vh; /* Gap between SVGs */
 }
 
 .svg2 {
     stroke: #f56998;
-    scale: 1.2;
-    transform: translate(10%, 4%);
-}z
+    transform: translate(25%, 0%);
+}
